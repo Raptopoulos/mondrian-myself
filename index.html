@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .container { 
+      gap: 9px;
+      background-color: black;
+      height: 794px;
+      width: 804px;
+      display: grid;
+      grid-template-columns: 100px 100px 100px 200px 110px 110px 30px;
+      grid-template-rows: 100px 200px 200px 100px 100px 30px 10px;
+    }
+    .box { 
+      background-color: antiquewhite;
+    } 
+
+    .white { 
+    grid-column: span 2;
+    }
+    .white2 { 
+    grid-column: span 2;
+    }
+    .yellow1 { 
+      grid-column: span 2;
+      background-color: rgb(255,207,0);
+    }
+    .white3 { 
+      grid-row: span 4
+    }
+    .red { 
+      grid-column: span 3;
+      grid-row: span 2;
+      border-top: 5px solid black;
+      border-bottom: 5px solid black;
+      background-color: rgb(255,28,14);
+    
+    }
+    .yellow2 { 
+      grid-column: span 2;
+      background-color: rgb(255,207,0);
+    }
+    .white5 { 
+      grid-row: span 2;
+    
+    }
+    .black { 
+      background-color: black;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    .white9 { 
+      grid-column: span 2;
+    }
+    .yellow3 { 
+      background-color: rgb(255,207,0);
+      grid-row: span 3;
+    }
+    .blue { 
+      grid-column: span 2;
+      grid-row: span 2;
+      background-color: rgb(94,133,255);
+    }
+    .red1 { 
+      grid-row: span 3;
+      background-color: rgb(255,28,14);
+    }
+    .white11 { 
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    .black1 { 
+  
+      background-color: black;
+    }
+    .white12 { 
+      background-color: antiquewhite;
+      grid-column: span 3;
+    }
+
+    
+    
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+<div class="container">
+  <div class="box white"></div>
+  <div class="box white2"></div>
+  <div class="box yellow1"></div>
+  <div class="box white3"></div>
+  <div class="box white4"></div>
+  <div class="box red"></div>
+  <div class="box yellow2"></div>
+  <div class="box white5"></div>
+  <div class="box white6"></div>
+  <div class="box white7"></div>
+  <div class="box black"></div>
+  <div class="box white8"></div>
+  <div class="box white9"></div>
+  <div class="box yellow3"></div>
+  <div class="box white10"></div>
+  <div class="box blue"></div>
+  <div class="box red1"></div>
+  <div class="box white11"></div>
+  <div class="box black1"></div>
+  <div class="box white12"></div>
+
+</div>
+</body>
+
+</html>
